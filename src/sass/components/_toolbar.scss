@@ -96,3 +96,19 @@
 .medium-editor-action-italic {
     font-style: italic;
 }
+
+.button {
+    .button--highlightMenu {
+        color: #fff;
+
+    }
+}
+
+.svgIcon {
+    fill: #fff;
+}
+.medium-editor-button-active{
+    .svgIcon {
+        fill: #fcdd00;
+    }
+}

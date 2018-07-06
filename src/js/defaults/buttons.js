@@ -252,6 +252,45 @@
             tagNames: ['h6'],
             contentDefault: '<b>H6</b>',
             contentFA: '<i class="fa fa-header"><sup>6</sup>'
+        },
+
+        // new buttons template
+        'm-quote': {
+            name: 'm-quote',
+            action: 'append-blockquote',
+            aria: 'blockquote',
+            tagNames: ['blockquote'],
+            contentDefault: '<span class="svgIcon svgIcon--blockquote svgIcon--21px"><svg class="svgIcon-use" width="21" height="21" viewBox="0 0 21 21" data-multipart="true"><path d="M15.48 18.024c-2.603 0-4.45-2.172-4.45-4.778 0-3.263 2.498-6.3 6.517-8.803l1.297 1.303c-2.497 1.63-3.91 3.042-3.91 5.214 0 2.824 3.91 3.582 3.91 3.91.11 1.41-1.194 3.15-3.366 3.15h.004v.004z"></path><path d="M6.578 18.024c-2.606 0-4.453-2.172-4.453-4.778 0-3.263 2.497-6.3 6.515-8.803l1.303 1.303c-2.606 1.63-3.907 3.042-3.907 5.106 0 2.823 3.91 3.58 3.91 3.91 0 1.518-1.304 3.257-3.368 3.257z"></path></svg></span>',
+            contentFA: '<i class="fa fa-quote-right"></i>'
+        },
+        'T': {
+            name: 'T',
+            action: 'append-h3',
+            aria: 'header type three',
+            tagNames: ['h3'],
+            contentDefault: '<span class="svgIcon svgIcon--tBigger svgIcon--21px"><svg class="svgIcon-use" width="21" height="21" viewBox="0 0 21 21"><path d="M3 2v4.747h1.656l.383-2.568.384-.311h3.88V15.82l-.408.38-1.56.12V18h7.174v-1.68l-1.56-.12-.407-.38V3.868h3.879l.36.311.407 2.568h1.656V2z" fill-rule="evenodd"></path></svg></span>',
+            contentFA: '<i class="fa fa-header"><sup>3</sup>'
+        },
+        't': {
+            name: 't',
+            action: 'append-h2',
+            aria: 'header type two',
+            tagNames: ['h2'],
+            contentDefault: '<span class="svgIcon svgIcon--tSmaller svgIcon--21px"><svg class="svgIcon-use" width="21" height="21" viewBox="0 0 21 21"><path d="M4 5.5v4.74h1.657l.384-2.569.384-.312h2.733v8.461l-.41.38-1.91.12V18h7.179v-1.68l-1.912-.12-.405-.38V7.359h2.729l.36.312.408 2.57h1.657V5.5z" fill-rule="evenodd"></path></svg></span>',
+            contentFA: '<i class="fa fa-header"><sup>2</sup>'
+        },
+        'm-bold': {
+            name: 'm-bold',
+            action: 'bold',
+            aria: 'bold',
+            tagNames: ['b', 'strong'],
+            style: {
+                prop: 'font-weight',
+                value: '700|bold'
+            },
+            useQueryState: true,
+            contentDefault: '<span class="svgIcon svgIcon--bold svgIcon--21px"><svg class="svgIcon-use" width="21" height="21" viewBox="0 0 21 21"><path d="M10.308 17.993h-5.92l.11-.894.783-.12c.56-.11.79-.224.79-.448V5.37c0-.225-.113-.336-.902-.448H4.5l-.114-.894h6.255c4.02 0 5.58 1.23 5.58 3.13 0 1.896-1.78 3.125-3.79 3.463v.11c2.69.34 4.25 1.56 4.25 3.57 0 2.35-2.01 3.69-6.37 3.69l.02.01h-.02zm-.335-12.96H8.967V10.5h1.23c1.788 0 2.79-1.23 2.79-2.683 0-1.685-1.004-2.803-3.006-2.803v.02zm-.223 6.36h-.783v5.588l1.225.23h.22c1.67 0 3.01-1.004 3.01-2.792 0-2.122-1.566-3.016-3.69-3.016h.018z" fill-rule="evenodd"></path></svg></span>',
+            contentFA: '<i class="fa fa-bold"></i>'
         }
     };
 
